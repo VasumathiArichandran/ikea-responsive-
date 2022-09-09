@@ -1,0 +1,141 @@
+@media (min-width: 300px) {
+  .GridBox8 {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 1fr;
+    grid-gap: 0.75rem;
+
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "Box81"
+      "Box83"
+      "Box82";
+    margin-bottom: 4rem;
+  }
+  .Box81 {
+    grid-area: Box81;
+  }
+  .Box82 {
+    grid-area: Box82;
+  }
+  .Box83 {
+    grid-area: Box83;
+  }
+  .eight1,
+  .eight2 {
+    width: 100%;
+    height: fit-content;
+  }
+  .Link81 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1rem;
+  }
+  .Link82 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+  }
+  .Link83 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+  }
+}
+@media (min-width: 600px) {
+  .GridBox8 {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.75rem;
+
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "Box81 Box82"
+      "Box83 .";
+    margin-bottom: 4rem;
+  }
+  .Box81 {
+    grid-area: Box81;
+  }
+  .Box82 {
+    grid-area: Box82;
+  }
+  .Box83 {
+    grid-area: Box83;
+  }
+  .eight1,
+  .eight2 {
+    width: 100%;
+    height: fit-content;
+  }
+  .Link81 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1rem;
+  }
+  .Link82 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+  }
+  .Link83 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .GridBox8 {
+    display: grid;
+    width: 100%;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 0.75rem;
+
+    grid-template-rows: 1fr;
+    grid-template-areas: "Box81 Box82 Box83 ";
+    margin-bottom: 4rem;
+  }
+  .Box81 {
+    grid-area: Box81;
+  }
+  .Box82 {
+    grid-area: Box82;
+  }
+  .Box83 {
+    grid-area: Box83;
+  }
+  .eight1,
+  .eight2 {
+    width: 100%;
+    height: fit-content;
+  }
+  .Link81 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 1rem;
+  }
+  .Link82 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+  }
+  .Link83 {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 0.9rem;
+  }
+}

@@ -1,0 +1,586 @@
+@media (min-width: 300px) {
+  .GridBox11 {
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    scroll-behavior: smooth;
+    grid-template-areas: "ImageHeadings1 ImageHeadings2 ImageHeadings3 ImageHeadings4 ImageHeadings5 ImageHeadings6 ImageHeadings7 ImageHeadings8 ImageHeadings9 ImageHeadings10 ImageHeadings11 ImageHeadings12";
+
+    background-color: white;
+    overflow: auto;
+    position: sticky;
+    top: 0%;
+    z-index: 40;
+  }
+
+  .LeftGrid11 {
+    display: none;
+  }
+  .LeftIconGrid11OnScroll {
+    opacity: 1;
+    margin-top: 1rem;
+    position: sticky;
+    left: 0%;
+    bottom: 55%;
+    z-index: 45;
+    display: block;
+
+    width: 2.5rem;
+  }
+  .RightGrid11 {
+    width: 2.5rem;
+    margin-top: 1rem;
+    position: sticky;
+    left: 92%;
+    bottom: 55%;
+    z-index: 45;
+    opacity: 1;
+  }
+
+  .RightIconGrid11OnScroll {
+    opacity: 0;
+  }
+  .LoadMoreButtonPosition {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .LoadMoreButtonShow {
+    background: black;
+    width: 10.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.05rem;
+    border: none;
+    color: white;
+    height: 3rem;
+    border-radius: 50rem;
+    padding: 0.6rem;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 2rem;
+  }
+  .LoadMoreButtonHide {
+    display: none;
+  }
+  .ImageHeadings1 {
+    grid-area: ImageHeadings1;
+    background: rgb(239, 237, 237);
+    width: 4.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.05rem;
+    border: none;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings1OnClick {
+    border: 2px solid black;
+    grid-area: ImageHeadings1;
+    background: rgb(239, 237, 237);
+    width: 4.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.05rem;
+
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings2 {
+    grid-area: ImageHeadings2;
+    background: rgb(239, 237, 237);
+    width: 6.5rem;
+    margin-right: 0.5rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    border: none;
+  }
+  .ImageHeadings2OnClick {
+    border: 2px solid black;
+  }
+  .ImageHeadings3 {
+    grid-area: ImageHeadings3;
+    background: rgb(239, 237, 237);
+    width: 8.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.5rem 0.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border: none;
+  }
+  .ImageHeadings3OnClick {
+    border: 2px solid black;
+  }
+  .ImageHeadings4 {
+    grid-area: ImageHeadings4;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings5 {
+    grid-area: ImageHeadings5;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings6 {
+    grid-area: ImageHeadings6;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings7 {
+    grid-area: ImageHeadings7;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings8 {
+    grid-area: ImageHeadings8;
+    background: rgb(239, 237, 237);
+    width: 12.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.5rem 0.7rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings9 {
+    grid-area: ImageHeadings9;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings10 {
+    grid-area: ImageHeadings10;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings11 {
+    grid-area: ImageHeadings11;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ImageHeadings12 {
+    grid-area: ImageHeadings12;
+    background: rgb(239, 237, 237);
+    width: 7.5rem;
+    margin-right: 0.5rem;
+    letter-spacing: 0.04rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .GridBox11::-webkit-scrollbar {
+    display: none;
+  }
+  /****************************************************************************************/
+
+  .GridBox11ImagesShow img,
+  .LoadMoreShow img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* padding-right: 1.25rem; */
+  }
+
+  .GridBox11ImagesShow {
+    grid-area: GridBox11ImagesShow;
+  }
+
+  .GridBox11ImagesShow {
+    display: grid;
+    opacity: 1;
+    transition: all 2s;
+    /* margin-top: 2rem; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.5rem;
+    /* grid-auto-columns: 150px; */
+    transition: all 1s;
+    grid-template-areas:
+      "El1 El1 El2 El2"
+      "El1 El1 El2 El2"
+      "El1 El1 El3 El3 "
+      "El4 El4 El3 El3"
+      "El4 El4 El5 El5 "
+      "El6 El6 El5 El5"
+      "El6 El6 El7 El7"
+      "El8 El8 El7 El7"
+      "El8 El8 El9 El9"
+      "El10 El10 El9 El9"
+      "El10 El10 El11 El11"
+      "El12 El12 El11 El11"
+      "El12 El12 . . ";
+  }
+
+  .GridBox11ImagesHide {
+    width: 0rem;
+    height: 0rem;
+
+    transition: all 2s;
+
+    opacity: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "El1";
+  }
+
+  .LoadMoreShow {
+    grid-area: LoadMoreShow;
+    display: grid;
+    opacity: 1;
+    transition: all 2s;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    /* grid-auto-columns: 150px; */
+    transition: all 1s;
+    grid-template-areas:
+      ". . El13 El13"
+      " El14 El14 El13 El13"
+      " El14 El14 El15 El15 "
+      " El16 El16 El15 El15 "
+      " El16 El16 El17 El17"
+      " El18 El18 El17 El17 "
+      " El18 El18 El19 El19"
+      " El20 El20 El19 El19 "
+      " El20 El20 El22 El22"
+      " El21 El21 El22 El22 "
+      " El21 El21 El23 El23 "
+      " El24 El24  El23 El23"
+      " El24 El24 El25 El25";
+    margin-top: -10rem;
+    opacity: 1;
+  }
+
+  .LoadMoreHide {
+    opacity: 0;
+    transition: all 2s;
+    width: 0rem;
+    height: 0rem;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "El1";
+  }
+
+  .GridBox11Images2Hide {
+    opacity: 0;
+    transition: all 2s;
+    width: 0rem;
+    height: 0rem;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "El1";
+  }
+  .GridBox11Images2Show {
+    display: grid;
+    opacity: 1;
+    transition: all 1s;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    /* grid-auto-columns: 150px; */
+    margin-top: 2rem;
+    grid-template-areas:
+      "El1 El1 El2 El2 El3 El3"
+      "El1 El1 El2 El2 El3 El3"
+      "El1 El1 El2 El2 El3 El3"
+      "El1 El1 El4 El4 El3 El3"
+      "El5 El5 El4 El4 El6 El6"
+      "El5 El5 El4 El4 El6 El6"
+      "El5 El5 El7 El7 El6 El6"
+      "El8 El8 El7 El7 El9 El9"
+      "El8 El8 El7 El7 El9 El9"
+      "El8 El8 El10 El10 El9 El9"
+      "El11 El11 El10 El10 El12 El12"
+      "El11 El11 El10 El10 El12 El12"
+      "El11 El11 El13 El13 El12 El12";
+  }
+
+  .GridBox11Images3Hide {
+    opacity: 0;
+    transition: all 2s;
+    width: 0rem;
+    height: 0rem;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "El1";
+  }
+  .GridBox11Images3Show {
+    display: grid;
+    opacity: 1;
+    transition: all 1s;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 1rem;
+    /* grid-auto-columns: 150px; */
+    margin-top: 2rem;
+    grid-template-areas:
+      "El1 El1 El2 El2 El3 El3"
+      "El1 El1 El2 El2 El3 El3"
+      "El1 El1 El2 El2 El3 El3"
+      "El1 El1 El4 El4 El3 El3"
+      "El5 El5 El4 El4 El6 El6"
+      "El5 El5 El4 El4 El6 El6"
+      "El5 El5 El7 El7 El6 El6"
+      "El8 El8 El7 El7 El9 El9"
+      "El8 El8 El7 El7 El9 El9"
+      "El8 El8 El10 El10 El9 El9"
+      "El11 El11 El10 El10 El12 El12"
+      "El11 El11 El10 El10 El12 El12"
+      "El11 El11 El13 El13 El12 El12";
+  }
+
+  .El1 {
+    grid-area: El1;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El2 {
+    grid-area: El2;
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    /* height:10vh; */
+    padding-right: 0rem;
+  }
+  .El3 {
+    grid-area: El3;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El4 {
+    grid-area: El4;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+    padding-top: 0rem;
+  }
+  .El5 {
+    grid-area: El5;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El6 {
+    grid-area: El6;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El7 {
+    grid-area: El7;
+    border-radius: 1rem;
+    width: 100%;
+    height: fit-content;
+    padding-right: 0rem;
+  }
+  .El8 {
+    grid-area: El8;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El9 {
+    grid-area: El9;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El10 {
+    grid-area: El10;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El11 {
+    grid-area: El11;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El12 {
+    grid-area: El12;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El13 {
+    grid-area: El13;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El14 {
+    grid-area: El14;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El15 {
+    grid-area: El15;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El16 {
+    grid-area: El16;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El17 {
+    grid-area: El17;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El18 {
+    grid-area: El18;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El19 {
+    grid-area: El19;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El20 {
+    grid-area: El20;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El21 {
+    grid-area: El21;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El22 {
+    grid-area: El22;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El23 {
+    grid-area: El23;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+  .El24 {
+    grid-area: El24;
+    border-radius: 1rem;
+    width: 100%;
+    /* height: fit-content; */
+    padding-right: 0rem;
+  }
+}

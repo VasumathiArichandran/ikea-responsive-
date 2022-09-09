@@ -1,0 +1,281 @@
+@media (min-width: 600px) {
+  .GridBox7 {
+    display: grid;
+    width: 100%;
+    grid-gap: 1.25rem;
+
+    /* grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    scroll-behavior: smooth;
+    grid-template-areas:
+      "seven1 seven2 seven3 seven4 "
+      "seven1Details seven2Details seven3Details seven4Details"; */
+     grid-template-columns: 1fr 1fr 1fr;
+    scroll-behavior: smooth;
+    grid-template-areas:
+      "seven1 seven2 seven3 "
+      "seven4 . ."
+     ; 
+  }
+.GridBox7 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .seven1 {
+    grid-area: seven1;
+
+    width: 100%;
+    height: fit-content;
+
+    position: relative;
+    display: inline-block;
+  }
+  .seven1 .seven12 {
+    opacity: 0;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    transition: all 0.5s;
+  }
+  .seven1:hover .seven12 {
+    opacity: 1;
+    display: inline;
+    transition: all 0.5s;
+  }
+
+  .seven2 {
+    grid-area: seven2;
+    /* width: 200px;
+    height: 200px; */
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: inline-block;
+  }
+  .seven2 .seven22 {
+    opacity: 0;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    transition: all 0.5s;
+  }
+  .seven2:hover .seven22 {
+    display: inline;
+    opacity: 1;
+    transition: all 0.5s;
+  }
+  .seven3 {
+    grid-area: seven3;
+    /* width: 200px;
+    height: 200px; */
+    width: 100%;
+    /* height: min(20rem, 60%); */
+    height: fit-content;
+    position: relative;
+    display: inline-block;
+  }
+  .seven3 .seven32 {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: fit-content;
+    z-index: 20;
+    transition: all 0.5s;
+  }
+  .seven3:hover .seven32 {
+    display: inline;
+    opacity: 1;
+    transition: all 0.5s;
+  }
+
+  .seven4 {
+    grid-area: seven4;
+    /* width: 200px;
+    height: 200px; */
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    display: inline-block;
+  }
+  .seven4 .seven42 {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    top: 0;
+    left: 0;
+
+    z-index: 20;
+    transition: all 0.5s;
+  }
+  .seven4:hover .seven42 {
+    display: inline;
+    opacity: 1;
+    transition: all 0.5s;
+  }
+  .seven1Details {
+    grid-area: seven1Details;
+
+    line-height: 0.3rem;
+    color: black;
+  }
+  .seven2Details {
+    grid-area: seven2Details;
+
+    line-height: 0.3rem;
+    color: black;
+  }
+  .seven3Details {
+    grid-area: seven3Details;
+
+    line-height: 0.3rem;
+    color: black;
+  }
+  .seven4Details {
+    grid-area: seven4Details;
+
+    color: black;
+
+    line-height: 0.3rem;
+  }
+  /***************Details*******************/
+  .ProductHeading {
+    color: rgb(81, 143, 250);
+  }
+  .ProductName {
+    font-weight: 600;
+  }
+  .ProductContent {
+    line-height: 1.5rem;
+  }
+  .ProductNormalPrice {
+    font-size: 0.9rem;
+  }
+  .ProductDiscountPrice {
+    font-weight: 600;
+  }
+  .ProductDiscountPrice span {
+    font-size: 1.5rem;
+    line-height: 1rem;
+  }
+  .StarIcon {
+    font-weight: 900;
+    font-size: 1.3rem;
+  }
+  .StarIcon span {
+    font-size: 0.8rem;
+    padding-left: 1rem;
+  }
+  .ProductMore {
+    font-size: 0.9rem;
+  }
+  .ProductPriceValidity {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+  }
+  .HeartIconClickable {
+    margin-top: 1rem;
+    width: fit-content;
+    border-radius: 50rem;
+  }
+  .HeartIconClickable:hover {
+    background-color: rgb(238, 239, 240);
+    fill: black;
+  }
+  .HeartIconShow {
+    opacity: 1;
+  }
+  .HeartIconHide {
+    display: none;
+  }
+  .HeartIconFilledHide {
+    opacity: 0;
+    display: none;
+  }
+  .HeartIconFilledShow {
+    opacity: 1;
+    display: block;
+  }
+  .HideLikedBox {
+    position: absolute;
+    width: 0%;
+    height: 10%;
+    z-index: 52;
+    background-color: white;
+    text-align: center;
+    bottom: 0rem;
+    top: 0%;
+    right: 0%;
+
+    text-decoration: none;
+    color: white;
+    list-style: none;
+
+    transition: all 0.5s;
+    overflow: auto;
+    opacity: 0;
+  }
+  .ShowLikedBox {
+    opacity: 1;
+    top: 3%;
+    right: 5%;
+
+    width: 20rem;
+    position: fixed;
+    height: 8%;
+    z-index: 62;
+    background-color: black;
+    text-align: center;
+    bottom: 0rem;
+    border-radius: 0.5rem;
+    list-style: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.5s;
+    overflow: auto;
+  }
+  .LikedBoxLink {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+  }
+  .LikedBoxLink:hover {
+    text-decoration: underline;
+  }
+  .LikedBoxCancelIcon {
+    border-radius: 50rem;
+    margin: 0.5rem;
+    padding: 0rem;
+    margin-top: 1rem;
+    align-self: center;
+  }
+  .LikedBoxCancelIcon:hover {
+    background-color: rgb(238, 239, 240);
+  }
+  .ShowAllButtonContainer {
+    margin: 3rem;
+    margin-left: 0rem;
+  }
+
+  .ShowAllButton {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 0.7rem 1.5rem;
+    border-radius: 50rem;
+    font-weight: 600;
+  }
+}

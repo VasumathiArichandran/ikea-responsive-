@@ -1,0 +1,293 @@
+@media (min-width: 900px) {
+  .GridBox2 {
+    display: grid;
+    width: 235%;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* grid-gap: 1.25rem; */
+    /* overflow-x: scroll; */
+    /* transform: translateX(-60%); */
+    grid-template-rows: 1fr 1fr;
+    scroll-behavior: smooth;
+    grid-template-areas:
+      "sR1 sR2 sR3 sR4 sR5 sR6 sR7"
+      "sR1Details sR2Details sR3Details sR4Details sR5Details sR6Details sR7Details";
+  }
+  .Left {
+    z-index: 60;
+    position: absolute;
+    margin-top: max(30%, 21rem);
+    left: 3%;
+    opacity: 1;
+  }
+  .LeftIconGrid2 {
+    opacity: 0;
+  }
+  .LeftIconGrid2OnScroll {
+    opacity: 1;
+  }
+
+  .GridBox2:hover >.Right {
+   opacity: 1;
+  }
+ .Right {
+    z-index: 60;
+    position: absolute;
+    margin-top: max(30%, 21rem);
+    right: 0%;
+    opacity: 0;
+  }
+
+  .GridBox2:hover .RightIconGrid2OnScroll {
+    opacity: 0;
+  }
+
+  .GridBox2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    padding-right: 1.25rem;
+  }
+  .ForwardIconGRid2 {
+    padding: 0rem;
+  }
+  .sR1 {
+    grid-area: sR1;
+  }
+  .sR1Details {
+    background-color: #e9dec5;
+    grid-area: sR1Details;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sR1Details:hover > .sR1DetailWritings h2,
+  .sR1Details:hover > .sR1DetailWritings a {
+    text-decoration: underline;
+  }
+
+  .sR1DetailWritings h2,
+  .sR1DetailWritings a {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .sR1DetailWritings p {
+    line-height: 1.5rem;
+  }
+  .sR2 {
+    grid-area: sR2;
+  }
+  .sR2Details {
+    background-color: #d7ae5e;
+    grid-area: sR2Details;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sR2Details:hover > .sR2DetailWritings h2,
+  .sR2Details:hover > .sR2DetailWritings a {
+    text-decoration: underline;
+  }
+
+  .sR2DetailWritings h2,
+  .sR2DetailWritings a {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .sR2DetailWritings p {
+    line-height: 1.5rem;
+  }
+  .sR3 {
+    grid-area: sR3;
+  }
+  .sR3Details {
+    background-color: #a0d293;
+    grid-area: sR3Details;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sR3Details:hover > .sR3DetailWritings h2,
+  .sR3Details:hover > .sR3DetailWritings a {
+    text-decoration: underline;
+  }
+
+  .sR3DetailWritings h2,
+  .sR3DetailWritings a {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .sR3DetailWritings p {
+    line-height: 1.5rem;
+  }
+  .sR4 {
+    grid-area: sR4;
+  }
+  .sR4Details {
+    background-color: #a1aba9;
+    grid-area: sR4Details;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sR4Details:hover > .sR4DetailWritings h2,
+  .sR4Details:hover > .sR4DetailWritings a {
+    text-decoration: underline;
+  }
+
+  .sR4DetailWritings h2,
+  .sR4DetailWritings a {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .sR4DetailWritings p {
+    line-height: 1.5rem;
+  }
+  .sR5 {
+    grid-area: sR5;
+  }
+  .sR5Details {
+    background-color: #e42312;
+
+    grid-area: sR5Details;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sR5Details:hover > .sR5DetailWritings h2,
+  .sR5Details:hover > .sR5DetailWritings a {
+    text-decoration: underline;
+  }
+
+  .sR5DetailWritings h2,
+  .sR5DetailWritings a {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: white;
+  }
+  .sR5DetailWritings p {
+    line-height: 1.5rem;
+  }
+  .sR6 {
+    grid-area: sR6;
+  }
+  .sR6Details {
+    background-color: #a39992;
+    grid-area: sR6Details;
+    margin-right: 1.25rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sR6Details:hover > .sR6DetailWritings h2,
+  .sR6Details:hover > .sR6DetailWritings a {
+    text-decoration: underline;
+  }
+
+  .sR6DetailWritings h2,
+  .sR6DetailWritings a {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .sR6DetailWritings p {
+    line-height: 1.5rem;
+  }
+  .sR7 {
+    grid-area: sR7;
+  }
+  .sR7Details {
+    background-color: #ffdb00;
+    grid-area: sR7Details;
+    /* margin-right: 1.25rem; */
+    margin-bottom: 2rem;
+    padding: 2rem;
+    padding-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sR7Details:hover > .sR7DetailWritings h2,
+  .sR7Details:hover > .sR7DetailWritings a {
+    text-decoration: underline;
+  }
+
+  .sR7DetailWritings h2,
+  .sR7DetailWritings a {
+    font-size: 1.5625rem;
+    line-height: 2.5rem;
+    text-decoration: none;
+    color: black;
+  }
+  .sR7FDetailWritings p {
+    line-height: 1.5rem;
+  }
+  /************
+*************
+*SCROLL BAR*
+***/
+
+  /* .ForGrid2 ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  .ForGrid2::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  } */
+
+  /******** /* width */
+  .ForGrid2::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  /* Track */
+  .ForGrid2::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .ForGrid2::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 50rem;
+    height: 4px;
+  }
+
+  /* Handle on hover */
+  .ForGrid2::-webkit-scrollbar-thumb:hover {
+    border: 8px solid black;
+  }
+}

@@ -1,0 +1,342 @@
+.LoginUL {
+  position: absolute;
+  width: 0%;
+  height: 100%;
+  z-index: 40;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  right: 0%;
+  left: 95%;
+  text-decoration: none;
+  color: white;
+  list-style: none;
+
+  transition: all 0.5s;
+  overflow: auto;
+  opacity: 0;
+}
+
+.showLogin {
+  position: absolute;
+  opacity: 1;
+  right: 0%;
+  left: 62%;
+  width: 38%;
+
+  height: 100%;
+  z-index: 37;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  color: black;
+  list-style: none;
+
+  transition: all 0.5s;
+  overflow: auto;
+}
+/***********CANCEL ICON********************/
+.loginCancel {
+  position: absolute;
+  overflow: hidden;
+
+  top: 5%;
+  left: 87%;
+  color: black;
+  padding: 5px;
+
+  background-color: white;
+
+  border-radius: 55%;
+}
+
+.loginCancel:hover {
+  background-color: rgb(200, 202, 205);
+}
+
+/***********HEJ BLOCK********************/
+.Hej {
+  background-color: #0058a3;
+  padding-top: 7rem;
+  padding-left: 3rem;
+  margin-left: -2.5rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid white;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2rem;
+  display: flex;
+}
+
+.LoginLink {
+  display: flex;
+  margin-left: 15.5rem;
+
+  text-decoration: none;
+  list-style: none;
+  padding: 0.425rem 1.5rem;
+  border: 1px solid rgb(200, 202, 205);
+  border-radius: 50rem;
+  color: black;
+  display: inline-flex;
+  word-spacing: 2px;
+  background-color: white;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 0.775rem;
+}
+
+/***********Join IKEA FAMILY********************/
+.JoinIkeaFamily {
+  color: white;
+  background-color: #0058a3;
+  text-decoration: none;
+  list-style: none;
+  margin-left: -2.5rem;
+  cursor: pointer;
+  padding-top: 0em;
+  border-bottom: 1px solid white;
+}
+.JoinIkeaFamily h6,
+.JoinIkeaFamily p {
+  margin: 0rem;
+}
+
+.JoinIkeaFamily h6 {
+  font-size: 0.85rem;
+  margin-left: 3rem;
+  text-align: left;
+}
+.JoinIkeaFamily p {
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+  margin-left: 3rem;
+  text-align: left;
+  margin-right: 9rem;
+
+  padding-bottom: 1rem;
+}
+
+.JoinIkeaFamily:hover > .JoinIkeaFamily h6,
+.JoinIkeaFamily:hover > .JoinIkeaFamily p {
+  text-decoration: underline;
+}
+/***********IKea FAMILY FORWARD********************/
+.JoinIkeaFamilyForward {
+  position: absolute;
+  overflow: hidden;
+
+  top: 43%;
+  left: 85%;
+  color: black;
+  padding: 5px;
+
+  background-color: white;
+
+  border-radius: 55%;
+}
+.JoinIkeaFamilyForward:hover {
+  background-color: rgb(200, 202, 205);
+}
+
+.JoinIkeaBusinessForward {
+  position: absolute;
+  overflow: hidden;
+
+  top: 64%;
+  left: 85%;
+  color: black;
+  padding: 5px;
+
+  background-color: white;
+
+  border-radius: 55%;
+}
+.JoinIkeaBusinessForward:hover {
+  background-color: rgb(200, 202, 205);
+}
+/***********LAST LIST OF ITEMS********************/
+.LoginDownListUL {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding-top: 1.6rem;
+  padding-bottom: 0.2rem;
+  padding-left: 0rem;
+  margin-bottom: 3.5rem;
+  margin-left: -0.5rem;
+}
+
+.LoginDownList {
+  line-height: 2.7rem;
+  text-align: left;
+  font-size: 0.875rem;
+}
+.LoginDownLink {
+  text-decoration: none;
+  color: black;
+}
+
+.LoginDownLink:hover {
+  text-decoration: underline;
+  background: none;
+}
+/************
+*************
+*SCROLL BAR*
+***/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 201, 201);
+  border: 1px solid white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(174, 173, 173);
+}
+
+@media (max-width: 700px) {
+  .LoginUL {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    z-index: 40;
+    background-color: white;
+    text-align: center;
+    bottom: 0rem;
+    right: 0%;
+    left: 95%;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+
+    transition: all 0.5s;
+    overflow: auto;
+    opacity: 0;
+  }
+
+  .showLogin {
+    position: absolute;
+    opacity: 1;
+    right: 0%;
+    left: 20%;
+    width: 80%;
+
+    height: 100%;
+    z-index: 37;
+    background-color: white;
+    text-align: center;
+    bottom: 0rem;
+    color: black;
+    list-style: none;
+
+    transition: all 0.5s;
+    overflow: auto;
+  }
+  .loginIcon {
+    position: absolute;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0);
+    font-size: 0px;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 32px;
+    height: 32px;
+    /* margin-top: -62.7rem;
+    margin-left: 27.5rem; */
+margin-left:27.2rem;
+margin-top: 0.2rem;
+    padding: 6px 6px 0px 6px;
+    padding-bottom: 25px;
+  }
+
+  .loginIcon:hover {
+    background-color: rgb(238, 239, 240);
+    border-radius: 25px;
+  }
+}
+
+
+
+
+/****************for 540px*************/
+@media (max-width: 540px) {
+  .LoginUL {
+    position: absolute;
+      width: 100%;
+     height: 100%;
+   
+    z-index: 40;
+    background-color: white;
+    text-align: center;
+
+   left: 0%;
+    bottom: -100%;
+   
+    /* left: 95%; */
+    text-decoration: none;
+    color: white;
+    list-style: none;
+
+    transition: all 0.5s;
+    overflow: auto;
+    opacity: 0;
+  }
+
+  .showLogin {
+    position: absolute;
+    opacity: 1;
+  
+   
+
+    left:0%;
+    width: 100%;
+   
+    height: 100%;
+    z-index: 37;
+    background-color: white;
+    text-align: center;
+    bottom: 0rem;
+    color: black;
+    list-style: none;
+
+    transition: all 0.5s;
+    overflow: auto;
+  }
+  .loginIcon {
+    position: absolute;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0);
+    font-size: 0px;
+    text-decoration: none;
+    transition: all 0.2s;
+    width: 32px;
+    height: 32px;
+    /* margin-top: -62.7rem;
+    margin-left: 27.5rem; */
+margin-left:21.2rem;
+margin-top: 0.2rem;
+    padding: 6px 6px 0px 6px;
+    padding-bottom: 25px;
+  }
+
+  .loginIcon:hover {
+    background-color: rgb(238, 239, 240);
+    border-radius: 25px;
+  }
+}
+
+

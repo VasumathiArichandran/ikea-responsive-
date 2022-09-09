@@ -1,0 +1,57 @@
+@media (min-width: 300px) {
+  .GridBox4 {
+    display: grid;
+    width: 100%;
+    grid-gap: 0rem;
+    margin-top: 0rem;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "Four1"
+      "Four2";
+      margin-bottom: 0rem;
+  }
+
+  .GridBox4 img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+  }
+  .Four1 {
+    grid-area: Four1;
+    padding-bottom: 2rem;
+  }
+  .Four2 {
+    grid-area: Four2;
+    /* margin-bottom: 3rem; */
+  }
+}
+
+@media (min-width: 600px) {
+  .GridBox4 {
+    display: grid;
+    width: 100%;
+    margin-top: 3rem;
+    grid-gap: 1rem;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "Four1 Four2";
+    margin-bottom: 3rem;
+  }
+
+  .GridBox4 img {
+    width: 100%;
+    height: 100%;
+
+    /* object-fit: cover; */
+  }
+  .Four1 {
+    grid-area: Four1;
+    padding-bottom: 0rem;
+ 
+  }
+  .Four2 {
+    grid-area: Four2;
+  }
+}

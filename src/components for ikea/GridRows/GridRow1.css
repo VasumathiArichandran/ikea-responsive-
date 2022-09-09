@@ -1,0 +1,100 @@
+@media (min-width: 300px) {
+  .GridBox1 {
+    display: grid;
+  
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.25rem;
+    grid-template-areas:
+      "sale sale"
+      "sale sale"
+      "sale sale"
+      "sale sale"
+      "sale sale"
+      "sale sale"
+      "sale sale"
+      "img1 img2"
+      "img1 img2"
+      "img1 img2"
+      "img3 img2"
+      "img3 img4"
+      "img3 img4"
+      "img3 img4";
+  }
+
+  .sale {
+    grid-area: sale;
+    width: 100%;
+    height: 100%;
+    padding-right: 0rem;
+    object-fit: cover;
+  }
+  .img1 {
+    grid-area: img1;
+    width: 100%;
+    height: 100%;
+    padding-right: 0rem;
+    object-fit: cover;
+  }
+  .img2 {
+    grid-area: img2;
+    width: 100%;
+    height: 100%;
+    padding-right: 0rem;
+    object-fit: cover;
+  }
+  .img3 {
+    grid-area: img3;
+    width: 100%;
+    height: 100%;
+    padding-right: 0rem;
+    object-fit: cover;
+  }
+  .img4 {
+    grid-area: img4;
+    width: 100%;
+    height: 100%;
+    padding-right: 0rem;
+    object-fit: cover;
+  }
+}
+@media (min-width: 900px) {
+  .GridBox1 {
+    display: grid;
+    /* grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(7, minmax(0, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 1.25rem;
+    grid-template-areas:
+      "sale sale img1 img2"
+      "sale sale img1 img2"
+      "sale sale img1 img2"
+      "sale sale img3 img2"
+      "sale sale img3 img4"
+      "sale sale img3 img4"
+      "sale sale img3 img4";
+
+    /* grid-auto-rows: 400px; */
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .sale {
+    grid-area: sale;
+  }
+  .img1 {
+    grid-area: img1;
+  }
+  .img2 {
+    grid-area: img2;
+  }
+  .img3 {
+    grid-area: img3;
+  }
+  .img4 {
+    grid-area: img4;
+  }
+}

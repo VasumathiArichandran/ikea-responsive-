@@ -1,0 +1,112 @@
+.HideLoginBox3 {
+  position: absolute;
+  width: 0%;
+  height: 100vh;
+  z-index: 52;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  top: 0%;
+  right: 0%;
+
+  text-decoration: none;
+  color: white;
+  list-style: none;
+
+  transition: all 0.5s;
+  overflow: auto;
+  opacity: 0;
+}
+
+.showLoginBox3 {
+  opacity: 1;
+  top: 0%;
+  right: 0%;
+
+  width: 45rem;
+  position: fixed;
+  height: 100%;
+  z-index: 62;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  color: black;
+  list-style: none;
+
+  transition: all 0.5s;
+  overflow: auto;
+}
+
+.stickyContainer {
+  display: flex;
+
+  align-items: center;
+
+  position: sticky;
+  top: 0%;
+  z-index: 65;
+  padding: 0rem 0.5rem;
+  background-color: white;
+}
+.LogoContainer {
+  padding: 0.5rem 0.5rem 0rem 0rem;
+
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: white;
+  margin-bottom: 0rem;
+}
+.LogoContainer h2 {
+  padding-right: 13.5rem;
+  padding-left: 10rem;
+}
+
+.InstaCancelIcon {
+  color: black;
+  padding: 0.25rem;
+  background-color: white;
+
+  border-radius: 50%;
+}
+
+.InstaCancelIcon:hover {
+  background-color: rgb(200, 202, 205);
+}
+.Individual {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.IndividualImg {
+  width: 20rem;
+  height: 100%;
+  object-fit: cover;
+}
+
+/************
+*************
+*SCROLL BAR*
+***/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 201, 201);
+  border: 1px solid white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(174, 173, 173);
+}

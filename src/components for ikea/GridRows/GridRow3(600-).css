@@ -1,0 +1,120 @@
+@media (min-width: 600px) {
+  .Grid3InstaImages {
+    display: grid;
+    grid-gap: 1rem;
+    /* width: min(155rem,270%); */
+    width: 155rem;
+    /* min-width: 150%; */
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    scroll-behavior: smooth;
+    grid-template-areas: "Three1 Three2 Three3 Three4 Three5 Three6 Three7 Three8 Three9 Three10";
+    grid-auto-rows: 100px;
+    grid-auto-columns: 100px;
+    margin-bottom: 3rem;
+  }
+  .Grid3InstaImages img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    /* padding-right: 1.25rem; */
+  }
+
+  .LeftGrid3 {
+    z-index: 60;
+    position: absolute;
+    margin-top: max(9%, 6rem);
+
+    left: 3%;
+    opacity: 1;
+  }
+  .LeftIconGrid3 {
+    opacity: 0;
+  }
+  .LeftIconGrid3OnScroll {
+    opacity: 1;
+  }
+
+  .GridBox3:hover > .RightGrid3 {
+    opacity: 1;
+  }
+  .RightGrid3 {
+    z-index: 60;
+    position: absolute;
+    margin-top: max(9%, 6rem);
+    right: 0%;
+    opacity: 0;
+  }
+
+  .RightIconGrid3OnScroll {
+    opacity: 0;
+  }
+
+  .Three1 {
+    grid-area: Three1;
+  }
+  .Three2 {
+    grid-area: Three2;
+  }
+  .Three3 {
+    grid-area: Three3;
+  }
+  .Three4 {
+    grid-area: Three4;
+  }
+  .Three5 {
+    grid-area: Three5;
+  }
+  .Three6 {
+    grid-area: Three6;
+  }
+  .Three7 {
+    grid-area: Three7;
+  }
+  .Three8 {
+    grid-area: Three8;
+  }
+  .Three9 {
+    grid-area: Three9;
+  }
+  .Three10 {
+    grid-area: Three10;
+  }
+
+  /************
+*************
+*SCROLL BAR*
+***/
+
+  /* .ForGrid2 ::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  .ForGrid2::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+  } */
+
+  /******** /* width */
+  .ForGrid3::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  /* Track */
+  .ForGrid3::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .ForGrid3::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 50rem;
+    height: 4px;
+  }
+
+  /* Handle on hover */
+  .ForGrid3::-webkit-scrollbar-thumb:hover {
+    border: 8px solid black;
+  }
+}

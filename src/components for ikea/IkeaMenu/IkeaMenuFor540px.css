@@ -1,0 +1,224 @@
+@media (max-width: 540px) {
+    ul {
+      list-style: none;
+    }
+  
+  
+  
+    .menuIcon {
+      z-index:10;
+      position: absolute;
+      margin-left: 27.7rem;
+      margin-top: 0.45rem;
+      cursor: pointer;
+      color: black;
+      text-decoration: none;
+      transition: all 0.3s;
+    }
+    .menuIcon:hover {
+      background-color: rgb(200, 202, 205);
+      border-radius: 50%;
+      padding: 1px;
+  } 
+    .MenuUl {
+      position: absolute;
+      opacity: 0;
+      width: 38%;
+      height: 100%;
+      z-index: 40;
+      background-color: white;
+      text-align: center;
+      bottom: 0rem;
+      left: -100%;
+  
+      text-decoration: none;
+      color: black;
+      list-style: none;
+      padding: 2rem;
+      padding-top: 1rem;
+      transition: all 0.3s;
+      overflow: auto;
+    }
+  
+    
+    .showMenuPhones {
+      position: absolute;
+      opacity: 1;
+      left: 0%;
+      width: 99%;
+      
+  
+      height: 100%;
+      z-index: 40;
+      background-color: white;
+      text-align: center;
+      bottom: 0rem;
+      text-decoration: none;
+      color: black;
+      list-style: none;
+      padding: 2rem;
+      padding-top: 1rem;
+      transition: all 0.3s;
+      overflow:visible;
+    }
+  
+    /**********ikea Icon ******/
+     .ikeaIconback {
+      position: sticky;
+      background-color: white;
+  
+      padding: 1.7rem;
+      display: flex;
+      align-items: center;
+  
+      top: -3.1%;
+      margin-left: -2rem;
+      margin-right: -2rem;
+      margin-top: -1rem;
+      margin-bottom: 2rem;
+    }
+    .ikeaIcon {
+      /* position: absolute;  */
+      /* overflow: hidden; */
+  
+      margin-top: 0rem;
+      margin-left: 4rem;
+  
+      /* top: 0%;
+    left: 2.5%; */
+    }
+  
+    /**********Ikea icon ends******/
+  
+    .MenuList {
+      line-height: 4.5rem;
+      list-style: none;
+  
+      font-size: 2.25rem;
+      letter-spacing: -0.04rem;
+  
+      font-weight: 700;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+  
+      padding-left: 6.75rem;
+    }
+  
+    /*CANCEL ICON*************/
+    .menuCancel {
+      /* position: fixed; */
+      overflow: hidden;
+      display: flex;
+      top: 5%;
+      left: 5%;
+      color: black;
+      padding: 4px;
+      margin-left: 2rem;
+    }
+  
+    .menuCancel:hover {
+      background-color: rgb(200, 202, 205);
+  
+      border-radius: 75%;
+    }
+    /*CANCEL ICON ENDS HERE*************/
+  
+    .MenuLink,
+    .MenuLinkSmall,
+    .MenuLinkVSmall {
+      text-decoration: none;
+      color: black;
+    }
+    .MenuLink:hover,
+    .MenuLinkSmall:hover,
+    .MenuLinkVSmall:hover {
+      text-decoration: underline;
+      background: none;
+    }
+    /******SMALL LINKS*
+  ***/
+  
+    .MenuListSmallUL {
+      list-style: none;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding-bottom: 2rem;
+      padding-left: 6.25rem;
+    }
+    .MenuListSmall {
+      line-height: 2.5rem;
+      font-weight: 650;
+      font-size: 0.835rem;
+      letter-spacing: 0.02rem;
+    }
+  
+    /******VERY SMALL LINKS*
+  ***/
+    .MenuListVSmallUL {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      list-style: none;
+      padding-left: 6.25rem;
+      margin-bottom: 3.5rem;
+    }
+  
+    .MenuListVSmall {
+      line-height: 2.25rem;
+  
+      font-size: 0.875rem;
+    }
+  
+    /******CHANGE COUNTRY*
+  ***/
+  
+    .changeCountry {
+      text-decoration: none;
+      list-style: none;
+      padding: 0.425rem 1rem;
+      border: 1px solid rgb(200, 202, 205);
+      border-radius: 50rem;
+      color: rgb(87, 86, 86);
+      display: inline-flex;
+      word-spacing: 2px;
+      margin-left: -3rem;
+      line-height: 1.5rem;
+      font-weight: 700;
+      font-size: 0.775rem;
+    }
+    .justTheWord {
+      margin-left: 0.15rem;
+    }
+  
+    /************
+  *************
+  *SCROLL BAR*
+  ***/
+    /* width */
+    ::-webkit-scrollbar {
+      width: 15px;
+     
+    }
+  
+    /* Track */
+    ::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
+  
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: rgb(217, 215, 215);
+      border: 1px solid white;
+     
+    }
+  
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: rgb(184, 182, 182);
+    }
+  }
+  

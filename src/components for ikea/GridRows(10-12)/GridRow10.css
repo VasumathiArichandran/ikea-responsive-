@@ -1,0 +1,231 @@
+@media (min-width: 300px) {
+  .GridBox10 {
+    width: 133rem;
+  }
+  .Grid10Images {
+    display: grid;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    scroll-behavior: smooth;
+    grid-template-areas: "ten0 ten1 ten2 ten3 ten4 ten5 ten6 ten7";
+
+    margin-bottom: 3rem;
+  }
+  .Grid10Images img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    padding-right: 1.25rem;
+  }
+
+  .LeftGrid10 {
+    z-index: 20;
+    position: absolute;
+    margin-top: max(11%, 9rem);
+
+    left: 3%;
+    opacity: 1;
+  }
+  .LeftIconGrid10 {
+    opacity: 0;
+  }
+  .LeftIconGrid10OnScroll {
+    opacity: 1;
+  }
+  .GridBox10:hover > .RightGrid10 {
+    opacity: 1;
+  }
+  .RightGrid10 {
+    z-index: 20;
+    position: absolute;
+    margin-top: max(11%, 9rem);
+    right: 0%;
+    opacity: 0;
+  }
+
+  .RightIconGrid10OnScroll {
+    opacity: 0;
+  }
+  .ButtonOnImageGrid10-1 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.6rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid10-2 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+
+    border-radius: 50rem;
+    padding: 0.5rem 1.4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ButtonOnImageGrid10-3 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 0.7rem 1.4rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid10-4 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.5rem 1.4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid10-5 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 0.1rem 1.4rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid10-6 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 0.1rem 1.4rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid10-7 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 0.1rem 1.4rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ten0 {
+    grid-area: ten0;
+    background-color: #1e8449;
+    margin-right: 1.25rem;
+    padding: 1rem 2.8rem;
+  }
+  .ten0 a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+  }
+  .ten0 p {
+    font-weight: 600;
+  }
+  .ten0:hover > a {
+    text-decoration: underline;
+  }
+  .ten1 {
+    grid-area: ten1;
+  }
+  .ten2 {
+    grid-area: ten2;
+  }
+  .ten3 {
+    grid-area: ten3;
+  }
+  .ten4 {
+    grid-area: ten4;
+  }
+  .ten5 {
+    grid-area: ten5;
+  }
+  .ten6 {
+    grid-area: ten6;
+  }
+  .ten7 {
+    grid-area: ten7;
+  }
+  /************
+    *************
+    *SCROLL BAR*
+    ***/
+
+  /* .ForGrid2 ::-webkit-scrollbar {
+        width: 20px;
+      }
+    
+      .ForGrid2::-webkit-scrollbar-thumb {
+        background: rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+      } */
+
+  /******** /* width */
+  .ForGrid10::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  /* Track */
+  .ForGrid10::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .ForGrid10::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 50rem;
+    height: 4px;
+  }
+
+  /* Handle on hover */
+  .ForGrid10::-webkit-scrollbar-thumb:hover {
+    border: 8px solid black;
+  }
+}

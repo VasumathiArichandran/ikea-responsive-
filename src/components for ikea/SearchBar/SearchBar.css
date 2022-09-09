@@ -1,0 +1,513 @@
+@media (min-width: 1200px) {
+  html {
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+    padding: 0.5rem;
+    /* width: 90%; */
+  }
+  .body {
+    margin: 0;
+  }
+  .SearchBarBackDropHandler {
+    position: fixed;
+    top: 0;
+    /* left: 0; */
+    /* width: 100%; */
+    /* height: 100vh; */
+    z-index: 20;
+    /* background-color: rgba(0, 0, 0, 0.2); */
+  }
+  .BackDropHandler {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 23;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+
+  .ToDefault {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  .MenuAndOthers {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .MenuBarSticky {
+    padding-bottom: 3rem;
+    /* padding-right: 3rem; */
+    /* ****padding-top: 2rem; ****very imp*/
+    padding-left: 1rem;
+    width: min-content;
+    margin: 0rem;
+    z-index: 42;
+    position: fixed;
+    padding-top: 1.7rem;
+    top: 0%;
+    /* display: inline; */
+  }
+
+  .divForSticky {
+    /* position: fixed; */
+    width: -webkit-fill-available;
+
+    padding-left: 3rem;
+  }
+  /* .SpaceForMenu {
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+  padding-top: 2rem;
+  padding-left: 4.5rem;
+} */
+
+  .IkeaIconHandler {
+    margin: 1.5rem 0rem;
+  }
+
+  .justforfun {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: fixed;
+    top: 0%;
+    background-color: white;
+    transition: all 0.7s;
+    /* margin-left: 10rem; */
+    width: -webkit-fill-available;
+    z-index: 21;
+    height: 5rem;
+    margin-right: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+  }
+
+  .NewSearchIcon {
+    display: none;
+    position: absolute;
+    width: 24px;
+    height: 28px;
+    top: 42%;
+    right: min(40%,200px);
+    /* margin-right:3rem; */
+    /* margin-right: 5rem;  */
+    /* margin-left: 8rem; */
+  }
+
+  .justforfun1 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: fixed;
+    /* top: -17%; */
+    background-color: white;
+    /* margin-left: 10rem; */
+    width: -webkit-fill-available;
+    z-index: 20;
+    transition: all 0.7s;
+    transform: translateY(-160%);
+  }
+
+  .justforfunBackDrop {
+    background: rgba(255, 255, 255, 0.2);
+
+    transition: background 0.01s;
+  }
+  .justforfun svg {
+    width: 24px;
+    /* background-color: blue; */
+  }
+  .SearchBarAndRightThreeIcons {
+    justify-content: space-between;
+  }
+
+  .WrapperBlock {
+    background-color: white;
+    display: inline-flex;
+    opacity: 1;
+
+    border-radius: 1rem 1rem 1rem 1rem;
+    width: min(90%, 42rem);
+    width: -webkit-fill-available;
+
+    z-index: 25;
+  }
+
+  .WrapperBlockHidden {
+    padding-top: 1rem;
+    border-radius: 0rem;
+    opacity: 0;
+    background-color: white;
+    display: inline-flex;
+    border-radius: 1rem;
+    width: min(90%, 42rem);
+    width: -webkit-fill-available;
+
+    z-index: 25;
+  }
+
+  .SearchBoxFull {
+    display: flex;
+    flex-direction: row;
+    /* height: fit-content; */
+    height: auto; 
+    align-items: center;
+    border-radius: 50rem;
+    border: 2px solid transparent;
+    padding: 0.6rem;
+    width: min(90%, 42rem);
+
+    width: -webkit-fill-available;
+    margin: 1rem;
+    z-index: 50;
+    background-color: rgb(234, 229, 229);
+  }
+
+  .SearchBarIcon2Shrink {
+    transition: all 0.5s;
+  }
+
+  .SearchBarIconToShrinkHidden {
+    transform: scale(0, 0);
+    transition: all 0.5s;
+  }
+  .LeftArrowIconForSearchBar {
+    display: none;
+  }
+
+  .InputField1 {
+    transition: all 0.5s;
+    background-color: rgb(203, 198, 198);
+    font-size: 1.1rem;
+  }
+
+  .InputField2 {
+    transition: all 0.5s;
+    background-color: rgb(203, 198, 198);
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+    width: min(90%, 37rem);
+    font-size: 1.1rem;
+
+    z-index: 25;
+  }
+  .InputAndSearchIconLeft {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: -webkit-fill-available;
+    z-index: 25;
+
+    /* background-color: blueviolet; */
+  }
+
+  .InputField {
+    padding-left: 1rem;
+    outline: none;
+    border: none;
+    width: min(90%, 42rem);
+    font-size: 1.1rem;
+
+    z-index: 25;
+    background-color: rgb(234, 229, 229);
+  }
+
+  .InputFieldMovesLeft {
+    margin-left: -1.5rem;
+    font-size: 1.1rem;
+  }
+  .AllRightIcons {
+    display: flex;
+  }
+  .CameraIcon {
+    display: flex;
+    width: min-content;
+    position: relative;
+    transition: all 0.2s;
+    opacity: 1;
+  }
+  .CameraIconHidden {
+    display: flex;
+    position: relative;
+    width: min-content;
+    transition: all 0.5s;
+    opacity: 0;
+  }
+
+  .SearchBarIconHidden {
+    display: flex;
+    align-self: center;
+    position: absolute;
+    transition: all 0.3s;
+    opacity: 0;
+  }
+  .SearchBarIcon {
+    display: flex;
+    align-self: flex-start;
+    position: absolute;
+    transition: all 0.5s;
+    opacity: 1;
+  }
+
+  .verticalLine {
+    border-left: 0.5px solid rgb(200, 202, 205);
+    height: 26px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    transition: all 0.5s;
+    opacity: 1;
+  }
+  .verticalLineHidden {
+    border-left: 0.5px solid rgb(200, 202, 205);
+    height: 26px;
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    transition: all 0.3s;
+    opacity: 0;
+  }
+  .CancelIconHidden {
+    opacity: 0;
+    transition: all 0.3s;
+  }
+  .CancelIcon {
+    opacity: 1;
+    transition: all 0.5s;
+    margin-top: 0rem;
+  }
+
+  .SearchOnClick {
+    transition: all 0.5s;
+    background-color: white;
+    font-size: 1.1rem;
+  }
+  .SearchOnClick2 {
+    border: 2px solid blue;
+    font-size: 1.1rem;
+  }
+
+  /****DROPDOWN CONTENT****/
+
+  .InputAndDropDown {
+    /* background-color: green; */
+    /* width: -webkit-fill-available; */
+    /* width: min(80%, 70rem); */
+    width: min(90%, 42rem);
+    z-index: 50;
+    margin: 0rem;
+    transform: none;
+    height: auto;
+  }
+
+  .dropdown-content {
+    display: none;
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 1rem;
+    width: min(90%, 42rem);
+  }
+
+  .show {
+    /* position: absolute; ****you should do something about it** */
+    display: block;
+    opacity: 1;
+    background-color: white;
+    border-radius: 0rem 0rem 1rem 1rem;
+    /* width: min(90%, 80rem); */
+    width: -webkit-fill-available;
+    transform: none;
+    height: auto;
+    margin-top: -1rem;
+    z-index: 25;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 13px 60px;
+
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+  }
+
+  .RightThreeIcons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0rem;
+    margin-top: 0.3rem;
+  }
+
+  .loginIconHandler {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+
+    display: flex;
+    align-items: center;
+    margin: 0rem; /**need to change maybe**/
+    /* padding: 1rem; */
+  }
+
+  .loginIconHandler:hover {
+    background-color: rgb(238, 239, 240);
+    border-radius: 50rem;
+  }
+
+  .orderIconHandler {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+    display: flex;
+    padding: 1rem;
+    opacity: 1;
+  }
+
+  .orderIconHandler:hover {
+    background-color: rgb(238, 239, 240);
+    border-radius: 50rem;
+  }
+
+  .cartIconHandler {
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+    border-radius: 50%;
+    padding: 0.5rem;
+    display: flex;
+  }
+
+  .cartIconHandler:hover {
+    background-color: rgb(238, 239, 240);
+  }
+
+  /**********For grid**********/
+  .ForGrid {
+    margin-left: 3rem;
+    /* margin-right: 3rem; */
+    overflow: auto;
+    display: inline-flex;
+    padding-top: 10rem;
+  }
+  .ForGrid2 {
+    padding-top: 6rem;
+    margin-left: 3rem;
+    /* margin-right: 3rem; */
+    overflow: auto;
+    /* display: inline-flex; */
+  }
+  .Grid3Headings {
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  .ForGrid3 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    overflow: auto;
+    /* width: 115rem; */
+
+    /* margin-right: 3rem; */
+
+    /* display: inline-flex; */
+  }
+  .ForGrid4 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+
+    /* display: inline-flex; */
+  }
+  .Grid5Headings {
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  .ForGrid5 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    overflow: auto;
+
+    /* margin-right: 3rem; */
+
+    /* display: inline-flex; */
+  }
+  .Grid6Headings {
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  .ForGrid6 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    overflow: auto;
+
+    /* margin-right: 3rem; */
+
+    /* display: inline-flex; */
+  }
+  .Grid7Headings {
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  .ForGrid7 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    /* width: 43rem; */
+  
+  }
+  .ForGrid8 {
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  .ForGrid9 {
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+
+  .Grid10Headings {
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  .ForGrid10 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    overflow: auto;
+  }
+  .Grid11Headings {
+    margin-left: 3rem;
+  }
+  .ForGrid11 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+  }
+
+  .ForGrid12 {
+    padding-top: 3rem;
+    margin-left: 3rem;
+    width: fit-content;
+  }
+  .ForGrid13 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    /* width: fit-content; */
+  }
+  .Grid13Headings {
+    margin-left: 3rem;
+  }
+
+  .ForGrid14 {
+    padding-top: 1rem;
+    margin-left: 3rem;
+    /* width: fit-content; */
+  }
+  .ForGrid15 {
+    padding-top: 1rem;
+
+    /* width: fit-content; */
+  }
+}

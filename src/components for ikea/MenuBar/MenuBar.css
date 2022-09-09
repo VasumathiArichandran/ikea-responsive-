@@ -1,0 +1,163 @@
+.MenuBox {
+  position: absolute;
+  opacity: 0;
+  top: 0%;
+  width: 38%;
+  height: 100vh;
+  z-index: 45;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  left: -300%;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  padding: 2rem;
+  padding-top: 1rem;
+  transition: all 0.5s;
+  overflow: auto;
+}
+.showMenuBox {
+  opacity: 1;
+  left: 0%;
+  top: 0%;
+  /*top:-45%;
+left:-20%;*/
+  width: 30rem;
+  height: 100vh;
+  z-index: 55;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  text-decoration: none;
+  color: black;
+  list-style: none;
+  padding: 2rem;
+  padding-top: 0rem;
+  transition: all 0.5s;
+  overflow: auto;
+}
+
+/***********Back drop************/
+.menuBackDropHandler {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 300vh;
+  z-index: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.removeMenuBackDropHandler {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.stickyContainer {
+  display: flex;
+  position: sticky;
+  top: 0%;
+  z-index: 45;
+  padding: 0rem 1rem;
+  background-color: white;
+}
+.LogoContainer {
+  padding: 1.5rem 0rem 2rem 1rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.EmptyContainer {
+  padding: 2rem 5rem;
+}
+
+.closeMenuBox {
+  color: black;
+  padding: 0.5rem;
+  margin-right: 3.5rem;
+}
+.closeMenuBox:hover {
+  background-color: rgb(200, 202, 205);
+  border-radius: 75%;
+}
+
+.FloatingContainer {
+  margin-left: 7.6rem;
+  text-align: left;
+  padding-top: 1.2rem;
+}
+.MenuBarLarge {
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 4.5rem;
+}
+.MenuBarSmall {
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.65px;
+  line-height: 2.5rem;
+  padding-bottom: 2rem;
+}
+.MenuBarVerySmall {
+  font-size: 0.875rem;
+  line-height: 2rem;
+  padding-bottom: 4rem;
+}
+.MenuBarLink,
+.MenuBarLinkSmall,
+.MenuBarLinkVSmall,
+.changeCountry {
+  color: black;
+  text-decoration: none;
+}
+.MenuBarLink:hover,
+.MenuBarLinkSmall:hover,
+.MenuBarLinkVSmall:hover {
+  text-decoration: underline;
+}
+.CountryChange {
+  text-decoration: none;
+  list-style: none;
+  padding: 0.425rem 0.8rem;
+  border: 1px solid rgb(200, 202, 205);
+  border-radius: 50rem;
+  color: rgb(87, 86, 86);
+  display: inline-flex;
+  word-spacing: 2px;
+  letter-spacing: 0.8px;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 0.775rem;
+}
+.justTheWord {
+  margin-left: 0.25rem;
+}
+
+/************
+*************
+*SCROLL BAR*
+***/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(217, 215, 215);
+  border: 1px solid white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(184, 182, 182);
+}

@@ -1,0 +1,109 @@
+@media (min-width: 300px) {
+  .GridBox13 {
+    display: grid;
+    width: 100%;
+    margin: 0rem;
+    /* width: -webkit-fill-available; */
+    grid-template-columns: 1fr;
+    grid-gap: 0.09rem;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "Thr1"
+      "Thr2";
+    margin-bottom: 4rem;
+  }
+  .Thr1 {
+    width: 100%;
+    height: fit-content;
+    grid-area: Thr1;
+  }
+  .Thr2 {
+    width: 100%;
+    height: fit-content;
+    grid-area: Thr2;
+  }
+  .Thirteen1Headings,
+  .Thirteen2Headings {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+  }
+  .LearnMoreButton1 {
+    grid-area: LearnMoreButton1;
+  }
+  .LearnMoreButton2 {
+    grid-area: LearnMoreButton2;
+  }
+  .LearnMoreButton1,
+  .LearnMoreButton2 {
+    background: black;
+    width: 14.5rem;
+    margin: 1rem;
+    letter-spacing: 0.01rem;
+    border: none;
+    color: white;
+    /* height: 4rem; */
+    text-decoration: none;
+    border-radius: 50rem;
+    padding: 0.8rem 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+}
+
+@media (min-width: 600px) {
+  .GridBox13 {
+    display: grid;
+    width: 100%;
+    margin: 0rem;
+    /* width: -webkit-fill-available; */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.09rem;
+
+    grid-template-rows: 1fr;
+    grid-template-areas:
+      "Thr1 Thr2"
+      "LearnMoreButton1 LearnMoreButton2";
+    margin-bottom: 4rem;
+  }
+  .Thr1 {
+    width: 100%;
+    height: fit-content;
+    grid-area: Thr1;
+  }
+  .Thr2 {
+    width: 100%;
+    height: fit-content;
+    grid-area: Thr2;
+  }
+  .Thirteen1Headings,
+  .Thirteen2Headings {
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem;
+  }
+  .LearnMoreButton1 {
+    grid-area: LearnMoreButton1;
+  }
+  .LearnMoreButton2 {
+    grid-area: LearnMoreButton2;
+  }
+  .LearnMoreButton1,
+  .LearnMoreButton2 {
+    background: black;
+    width: 14.5rem;
+    margin: 1rem;
+    letter-spacing: 0.01rem;
+    border: none;
+    color: white;
+    /* height: 4rem; */
+    text-decoration: none;
+    border-radius: 50rem;
+    padding: 0.8rem 1.5rem;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+  }
+}

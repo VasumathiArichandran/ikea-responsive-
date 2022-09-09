@@ -1,0 +1,261 @@
+.HideLoginBox {
+  position: absolute;
+  width: 31rem;
+  height: 100vh;
+  z-index: 52;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  top: 0%;
+  right: -100%;
+
+  text-decoration: none;
+  color: white;
+  list-style: none;
+
+  transition: all 0.5s;
+  overflow: auto;
+  opacity: 0;
+}
+
+.showLoginBox {
+  opacity: 1;
+  top: 0%;
+  right: 0%;
+
+  width: 31rem;
+
+  height: 100vh;
+  z-index: 52;
+  background-color: white;
+  text-align: center;
+  bottom: 0rem;
+  color: black;
+  list-style: none;
+
+  transition: all 0.5s;
+  overflow: auto;
+}
+@media (min-width: 300px) {
+  .HeyJLoginWord {
+    display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .HeyJLoginWord {
+    display: block;
+    width: 10rem;
+  }
+}
+
+/***********CANCEL ICON********************/
+
+.CancelBlock {
+  display: flex;
+  align-items: center;
+  background-color: #0058a3;
+}
+.justSomeSpaceForXIcon {
+  padding: 3.6rem 12.5rem;
+  background-color: #0058a3;
+}
+.loginCancelIcon {
+  color: black;
+  padding: 0.25rem;
+  background-color: white;
+
+  border-radius: 50%;
+}
+
+.loginCancelIcon:hover {
+  background-color: rgb(200, 202, 205);
+}
+/***********HEJ BLOCK********************/
+.HejWordAlignment {
+  background-color: #0058a3;
+  padding-left: 3rem;
+  padding-right: 2.5rem;
+  padding-bottom: 3rem;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid white;
+}
+.LoginButtonLink {
+  text-decoration: underline;
+  list-style: none;
+  color: black;
+}
+.LoginToButton {
+  padding: 0.425rem 1.5rem;
+  border: 1px solid rgb(200, 202, 205);
+  border-radius: 50rem;
+  word-spacing: 1.5px;
+  background-color: white;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-size: 0.775rem;
+}
+
+/***********Join IKEA FAMILY********************/
+.JoinIkeaFamilyLoginContainer {
+  color: white;
+  background-color: #0058a3;
+
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 0rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  border-bottom: 1px solid white;
+}
+.JoinIkeaFamilyLogin {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+.JoinIkeaFamilyLogin h6,
+.JoinIkeaFamilyLogin p {
+  margin: 0rem;
+}
+
+.JoinIkeaFamilyLogin h6 {
+  font-size: 0.85rem;
+
+  text-align: left;
+}
+.JoinIkeaFamilyLogin p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  padding-right: 3rem;
+  text-align: left;
+}
+
+.JoinIkeaFamilyLoginContainer:hover > .JoinIkeaFamilyLogin h6,
+.JoinIkeaFamilyLoginContainer:hover > .JoinIkeaFamilyLogin p {
+  text-decoration: underline;
+}
+
+.JoinIkeaFamilyForwardIcon {
+  color: black;
+  padding: 0.25rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.JoinIkeaFamilyForwardIcon:hover {
+  background-color: rgb(200, 202, 205);
+}
+
+/***********Join IKEA FAMILY********************/
+/*  */
+
+/***********Join IKEA BUSINESS********************/
+.JoinIkeaBusinessLoginContainer {
+  color: white;
+  background-color: #0058a3;
+
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  margin: 0rem;
+  padding-left: 3rem;
+  padding-right: 4rem;
+  border-bottom: 1px solid white;
+}
+.JoinIkeaBusinessLogin {
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+.JoinIkeaBusinessLogin h6,
+.JoinIkeaBusinessLogin p {
+  margin: 0rem;
+}
+
+.JoinIkeaBusinessLogin h6 {
+  font-size: 0.85rem;
+
+  text-align: left;
+}
+.JoinIkeaBusinessLogin p {
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+  padding-right: 4rem;
+  text-align: left;
+}
+
+.JoinIkeaBusinessContainer:hover > .JoinIkeaBusinessLogin h6,
+.JoinIkeaBusinessLoginContainer:hover > .JoinIkeaBusinessLogin p {
+  text-decoration: underline;
+}
+
+.JoinIkeaFamilyForwardIcon {
+  color: black;
+  padding: 0.25rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.JoinIkeaFamilyForwardIcon:hover {
+  background-color: rgb(200, 202, 205);
+}
+
+/**********list of items************/
+
+.LoginDownChoices {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding-top: 1.6rem;
+  padding-bottom: 3.2rem;
+  padding-left: 3rem;
+}
+
+.LoginDownPurchaseList {
+  line-height: 2.7rem;
+  text-align: left;
+  font-size: 0.9rem;
+}
+.LoginDownPurchaseLink {
+  text-decoration: none;
+  color: black;
+}
+
+.LoginDownPurchaseLink:hover {
+  text-decoration: underline;
+  background: none;
+}
+/************
+*************
+*SCROLL BAR*
+***/
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(202, 201, 201);
+  border: 1px solid white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(174, 173, 173);
+}

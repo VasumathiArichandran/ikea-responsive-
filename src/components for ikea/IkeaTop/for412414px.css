@@ -1,0 +1,510 @@
+@media (max-width: 414px) {
+
+    body {
+      font-family: "Roboto Regular";
+      color: black;
+      margin: 0px;
+    
+      text-decoration: none;
+    
+      font-family: "Noto Sans JP", sans-serif;
+    }
+  ul{
+    list-style: none;
+   
+  }
+  .orderIcon{
+   opacity:0;
+  }
+  
+  .App {
+   
+    top: 0;
+    left: 0;
+    width: 120%;
+    height: 120vh;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .default {
+  
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  
+  
+  
+  .cartIcon {
+    position: absolute;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+    transition: all 0.2s;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+   padding: 0.5rem;
+  /* margin-top: -64.6rem; */
+  margin-top:-1.2rem;
+  margin-left: 14.6rem;
+  
+  }
+  .cartIcon:hover {
+    background-color: rgb(238, 239, 240);
+  }
+  
+  .LogoForPhones{
+    position: absolute;
+    width:90px;
+    height:40px;
+    margin-top: 0rem;
+    margin-left: -1rem;
+    /* margin-top:-63.5rem ; */
+  }
+  
+  
+  
+  /*****************************************************************************************************************
+  ******************SEARCH BAR*************/
+  i.material-icons {
+    color: black;
+  }
+  
+  .searchBarBackDrop li {
+    z-index: 30;
+    
+  }
+  
+  /*****Search box****/
+  .newOne {
+    position: relative;
+   
+    font-size: 16px;
+    border: none;
+    /* display: inline-block;  */
+    width: 23rem;
+    padding: 15px 45px;
+    border-radius: 50rem;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background-color: rgb(238, 239, 240);
+    transition: all 0.4s;
+   margin-top: 3.3rem;
+   margin-left: -1rem;
+ 
+   
+  }
+  
+  .newOneOnClick {
+    /* outline: none; */
+  
+    background-color: white;
+    border: 2px solid rgb(15, 22, 126);
+  }
+  
+  .newOnKeyUp {
+    transition: all 0.4s;
+    padding: 15px 45px 15px 20px;
+  }
+  
+  input[type="text"]:focus {
+    background-color: white;
+  }
+  
+  .wrapper {
+    position: absolute;
+    background-color: white;
+    padding: 27px 35px;
+    width: 125%;
+    height: 135%;
+    top: -32%;
+    left: -11%;
+    /* padding: 10px 8px; */
+     border-radius: 9px;
+     
+    
+   
+  }
+  .show2 {
+   
+    padding: 0px;
+  }
+  
+  .newOne:focus {
+    outline: none;
+  }
+  
+  .newOne:hover {
+    /* background-color: rgb(200, 202, 205); */
+    background-color: #dfdfdf;
+  }
+  
+  /*****************************FOR PHONES SEARCH BAR TO MOVE UP**************************************************************/
+  
+  .searchBarMovesUp{
+  margin-top: 0rem;
+  margin-left: -1rem;
+  transition: all 0.5s;
+  }
+  
+  /*******CAMERA ICON TO MOVE UP*****/
+  .newTwoToMoveUp{
+    position: absolute;
+    top: -34%;
+    left: 84%;
+    color: black;
+    padding: 1px;
+    opacity: 1;
+    margin-left: 23px;
+    transition: all 0s;
+    margin-top: 2rem;
+  }
+  
+  .newTwoToMoveUp:hover {
+   
+    border-radius: 80%;
+  }
+  .newTwoToMoveUpDisappear {
+    position: absolute;
+    top: -34%;
+    left: 84%;
+    color: black;
+    padding: 1px;
+    opacity: 0;
+    margin-left: 23px;
+    transition: all 0.2s;
+    margin-top: 2rem;
+   
+  }
+  
+  /***********
+  *********SEARCH ICON TO SHRINK WHEN SEARCH BAR MOVES UP
+  ******/
+  .searchIconToShrinkMovesUp {
+    position: absolute;
+    top: 33%;
+    left: 1%;
+    color: black;
+    transition: all 0.4s;
+  }
+  
+  .iconToShrinkMovesUp {
+    position: absolute;
+    top: 33%;
+    left: 1%;
+    color: black;
+    transform: scale(0, 0);
+    transition: all 0.4s;
+  }
+  
+  /***********
+  *********SEARCH ICON IN SEARCH BOX MOVES UP
+  ******/
+  
+  .iconToRightMovesUp {
+    position: absolute;
+    top: -32%;
+    left: 85%;
+    color: black;
+    padding: 1px;
+    opacity: 1;
+    margin-left: 23px;
+    transition: all 0.5s;
+    margin-top: 2rem;
+  }
+  
+  .searchRemovableMovesUp {
+    position: absolute;
+    top: -32%;
+    left: 85%;
+    color: black;
+    padding: 1px;
+    margin-left: 23px;
+    opacity: 0;
+    transition: all 0.2s;
+    margin-top: 2rem;
+  }
+  
+  .searchRemovableMovesUp:hover,
+  .iconToRightMovesUp:hover {
+    background-color: rgb(200, 202, 205);
+    border-radius: 65%;
+  }
+  
+  /******
+  CANCEL ICON IN SEARCH BOX MOVES UP
+  ************/
+  
+  .deleteCancelMovesUp {
+    position: absolute;
+    top: -33%;
+    left: 78%;
+    color: black;
+    margin-top: 2rem;
+    padding: 4px;
+  }
+  
+  .hideitMovesUp {
+    position: absolute;
+    top: -33%;
+    left: 78%;
+    color: black;
+    margin-top: 2rem;
+    padding: 4px;
+    opacity: 0;
+  }
+  
+  .deleteCancelMovesUp:hover {
+    background-color: rgb(200, 202, 205);
+  
+    border-radius: 75%;
+  }
+  
+  .verticalLineMovesUp {
+    position: absolute;
+    border-left: 0.5px solid rgb(200, 202, 205);
+    height: 22px;
+    top: -33%;
+    left: 86.5%;
+    margin-top: 2rem;
+  }
+  
+  
+  .LoadingMovesUp{
+    position: absolute;
+     width:20px;
+     height: 20px;
+     border: none;
+     top:-30%;
+     left:82%;
+     opacity: 1;
+     transition: all 0.5s;
+     margin-top: 2rem;
+   }
+   .LoadingHiddenModeMovesUp{
+     margin-top: 2rem;
+      width:20px;
+      height: 20px;
+      border: none;
+      top:-30%;
+      left:82%;
+     display: none;
+      transition: all 0.2s;
+    }
+  
+  
+  /******************FOR PHONES WHEN SEARCH BAR MOVES UP ENDS HERE****/
+  
+  /***********
+  *********CAMERA ICON IN SEARCH BOX
+  ******/
+  
+  
+  .newTwo{
+    position: absolute;
+    top: 32%;
+    left: 83%;
+    color: black;
+    padding: 1px;
+    opacity: 1;
+    margin-left: 23px;
+    transition: all 0.7s;
+    margin-top: 2rem;
+  }
+  
+  .newTwo:hover {
+   
+    border-radius: 80%;
+  }
+  .newTwoToDisappear {
+    position: absolute;
+    top: 32%;
+    left: 83%;
+    color: black;
+    padding: 1px;
+    opacity: 0;
+    margin-left: 23px;
+    transition: all 0.2s;
+    margin-top: 2rem;
+   
+  }
+  
+  /***********
+  *********SEARCH ICON IN SEARCH BOX
+  ******/
+  
+  .iconToRight {
+    position: absolute;
+    top: 28%;
+    left: 89%;
+    color: black;
+    padding: 1px;
+    opacity: 1;
+    margin-left: 23px;
+    transition: all 0.5s;
+    margin-top: 2rem;
+  }
+  
+  .searchRemovable {
+    position: absolute;
+    top: 28%;
+    left: 89%;
+    color: black;
+    padding: 1px;
+    margin-left: 23px;
+    opacity: 0;
+    transition: all 0.2s;
+    margin-top: 2rem;
+  }
+  
+  .searchRemovable:hover,
+  .iconToRight:hover {
+    background-color: rgb(200, 202, 205);
+    border-radius: 65%;
+  }
+  
+  /***********
+  *********SEARCH ICON TO SHRINK
+  ******/
+  .searchIconToShrink {
+    position: absolute;
+    top: 35%;
+    left: 0.5%;
+    color: black;
+    transition: all 0.4s;
+    margin-top: 2rem;
+  }
+  
+  .iconToShrink {
+    position: absolute;
+    top: 35%;
+    left: 0.5%;
+    color: black;
+    transform: scale(0, 0);
+    transition: all 0.4s;
+    margin-top: 2rem;
+  }
+  
+  .final {
+    top: 2.5%;
+     position: fixed;
+  }
+  /******
+  CANCEL ICON IN SEARCH BOX
+  ************/
+  
+  .deleteCancel {
+    position: absolute;
+    top: 29%;
+    left: 84%;
+    color: black;
+    margin-top: 2rem;
+    padding: 4px;
+  }
+  
+  .hideit {
+    position: absolute;
+    top: 29%;
+    left: 84%;
+    color: black;
+    margin-top: 2rem;
+    padding: 4px;
+    opacity: 0;
+  }
+  
+  .deleteCancel:hover {
+    background-color: rgb(200, 202, 205);
+  
+    border-radius: 75%;
+  }
+  
+  .verticalLine {
+    position: absolute;
+    border-left: 0.5px solid rgb(200, 202, 205);
+    height: 22px;
+    top: 29%;
+    left: 90%;
+    margin-top: 2rem;
+  }
+  
+  
+  /*******************************************************************************************************
+  ******************************
+  DROPDOWN RELATED*/
+    .dropdown {
+    position: relative;
+    display: inline-block;
+  } 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 37rem;
+   top:100%;
+   left:-25%;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+   
+  
+    overflow: auto;
+    border-radius: 0px 0px 9px 9px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 66px;
+    text-decoration: none;
+    display: block;
+    font-size: 15px;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+   
+  }
+  
+  /*.borderDropDown1 {
+    border: 2px solid black;
+  }
+  .borderDropDown2 {
+    border: 2px solid black;
+  }
+  .borderDropDown3 {
+    border: 2px solid black;
+  }*/
+  
+  .dropdown a:hover {
+    text-decoration: underline;
+  }
+  .show {
+    display: block;
+    margin-left:3.37rem;
+
+  }
+  /************LOADING ANIMATION**************/
+  .Loading{
+   position: absolute;
+    width:20px;
+    height: 20px;
+    border: none;
+    top:30%;
+    left:87%;
+    opacity: 1;
+    transition: all 0.5s;
+    margin-top: 2rem;
+  }
+  .LoadingHiddenMode{
+    margin-top: 2rem;
+     width:20px;
+     height: 20px;
+     border: none;
+     top:30%;
+     left:87%;
+    display: none;
+     transition: all 0.2s;
+   }
+  
+  }

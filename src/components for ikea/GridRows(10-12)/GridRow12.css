@@ -1,0 +1,303 @@
+@media (min-width: 300px) {
+  .GridBox12 {
+    display: grid;
+    width: 100%;
+    margin: 0rem;
+    /* width: -webkit-fill-available; */
+    grid-template-columns: 1fr;
+    grid-gap: 0.09rem;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "Box121"
+      "Box122"
+      "Box123"
+      "Box124";
+    margin-bottom: 4rem;
+  }
+  .Box121 {
+    grid-area: Box121;
+  }
+  .Box122 {
+    grid-area: Box122;
+  }
+  .Box123 {
+    grid-area: Box123;
+  }
+  .Box123 {
+    grid-area: Box124;
+  }
+
+  .Icon1,
+  .Icon2,
+  .Icon3,
+  .Icon4 {
+    padding: 0.6rem;
+    width: 48px;
+    height: 48px;
+  }
+
+  .Box121Details,
+  .Box122Details,
+  .Box123Details,
+  .Box124Details {
+    background-color: rgba(245, 245, 245, 1);
+    height: 12.5rem;
+
+    padding: 1rem;
+    /* padding: 1.5rem 1.7rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    line-height: 0rem;
+    justify-content: flex-start;
+  }
+  /* 
+  .Box124Details {
+    margin-right: 1rem;
+  } */
+
+  .Box121Details p,
+  .Box122Details p,
+  .Box123Details p,
+  .Box124Details p {
+    margin: 0rem;
+    color: rgba(72, 72, 72, 1);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+  .Box121Details a,
+  .Box122Details a,
+  .Box123Details a,
+  .Box124Details a {
+    margin: 0rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: left;
+
+    color: rgba(72, 72, 72, 1);
+  }
+
+  .Box121Details .Box121DetailsHeading,
+  .Box122Details .Box122DetailsHeading,
+  .Box123Details .Box123DetailsHeading,
+  .Box124Details .Box124DetailsHeading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0rem;
+    color: black;
+    text-align: left;
+  }
+
+  .Box122Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  .Box123Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  .Box124Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+}
+
+@media (min-width: 600px) {
+  .GridBox12 {
+    display: grid;
+    width: 100%;
+    margin: 0rem;
+    /* width: -webkit-fill-available; */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0.09rem;
+
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "Box121 Box122 "
+      "Box123 Box124";
+    margin-bottom: 4rem;
+  }
+  .Box121 {
+    grid-area: Box121;
+  }
+  .Box122 {
+    grid-area: Box122;
+  }
+  .Box123 {
+    grid-area: Box123;
+  }
+  .Box123 {
+    grid-area: Box124;
+  }
+
+  .Icon1,
+  .Icon2,
+  .Icon3,
+  .Icon4 {
+    padding: 0.6rem;
+    width: 48px;
+    height: 48px;
+  }
+
+  .Box121Details,
+  .Box122Details,
+  .Box123Details,
+  .Box124Details {
+    background-color: rgba(245, 245, 245, 1);
+    height: 12.5rem;
+
+    padding: 1rem;
+    /* padding: 1.5rem 1.7rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0rem;
+    justify-content: flex-start;
+  }
+  /* 
+  .Box124Details {
+    margin-right: 1rem;
+  } */
+
+  .Box121Details p,
+  .Box122Details p,
+  .Box123Details p,
+  .Box124Details p {
+    margin: 0rem;
+    color: rgba(72, 72, 72, 1);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .Box121Details a,
+  .Box122Details a,
+  .Box123Details a,
+  .Box124Details a {
+    margin: 0rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+
+    color: rgba(72, 72, 72, 1);
+  }
+
+  .Box121Details .Box121DetailsHeading,
+  .Box122Details .Box122DetailsHeading,
+  .Box123Details .Box123DetailsHeading,
+  .Box124Details .Box124DetailsHeading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0rem;
+    color: black;
+    text-align: center;
+  }
+
+  .Box122Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  .Box123Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  .Box124Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+}
+
+@media (min-width: 900px) {
+  .GridBox12 {
+    display: grid;
+    width: 100%;
+    margin: 0rem;
+    /* width: -webkit-fill-available; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 0.09rem;
+
+    grid-template-rows: 1fr;
+    grid-template-areas: "Box121 Box122 Box123 Box124";
+    margin-bottom: 4rem;
+  }
+  .Box121 {
+    grid-area: Box121;
+  }
+  .Box122 {
+    grid-area: Box122;
+  }
+  .Box123 {
+    grid-area: Box123;
+  }
+  .Box123 {
+    grid-area: Box124;
+  }
+
+  .Icon1,
+  .Icon2,
+  .Icon3,
+  .Icon4 {
+    padding: 0.6rem;
+    width: 48px;
+    height: 48px;
+  }
+
+  .Box121Details,
+  .Box122Details,
+  .Box123Details,
+  .Box124Details {
+    background-color: rgba(245, 245, 245, 1);
+    height: 12.5rem;
+
+    padding: 1rem;
+    /* padding: 1.5rem 1.7rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 0rem;
+    justify-content: flex-start;
+  }
+  /* 
+.Box124Details {
+  margin-right: 1rem;
+} */
+
+  .Box121Details p,
+  .Box122Details p,
+  .Box123Details p,
+  .Box124Details p {
+    margin: 0rem;
+    color: rgba(72, 72, 72, 1);
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+  }
+  .Box121Details a,
+  .Box122Details a,
+  .Box123Details a,
+  .Box124Details a {
+    margin: 0rem;
+    font-size: 1rem;
+    line-height: 1.6rem;
+    text-align: center;
+
+    color: rgba(72, 72, 72, 1);
+  }
+
+  .Box121Details .Box121DetailsHeading,
+  .Box122Details .Box122DetailsHeading,
+  .Box123Details .Box123DetailsHeading,
+  .Box124Details .Box124DetailsHeading {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0rem;
+    color: black;
+    text-align: center;
+  }
+
+  .Box122Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  .Box123Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+  .Box124Details {
+    background-color: rgba(245, 245, 245, 1);
+  }
+}

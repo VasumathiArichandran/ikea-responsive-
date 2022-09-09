@@ -1,0 +1,197 @@
+@media (min-width: 300px) {
+  .GridBox5 {
+    width: 96rem;
+  }
+  .Grid5Images {
+    display: grid;
+    grid-gap: 1rem;
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    scroll-behavior: smooth;
+    grid-template-areas: "Five1 Five2 Five3 Five4 Five5 Five6";
+
+    margin-bottom: 3rem;
+  }
+  .Grid5Images img {
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+    padding-right: 0rem;
+  }
+
+  .LeftGrid5 {
+    z-index: 20;
+    position: absolute;
+    margin-top: max(11%, 9rem);
+
+    left: 3%;
+    opacity: 1;
+  }
+  .LeftIconGrid5 {
+    opacity: 0;
+  }
+  .LeftIconGrid5OnScroll {
+    opacity: 1;
+  }
+  .GridBox5:hover > .RightGrid5 {
+    opacity: 1;
+  }
+  .RightGrid5 {
+    z-index: 20;
+    position: absolute;
+    margin-top: max(11%, 9rem);
+    right: 0%;
+    opacity: 0;
+  }
+
+  .RightIconGrid5OnScroll {
+    opacity: 0;
+  }
+  .ButtonOnImageGrid51 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+
+    border-radius: 50rem;
+    padding: 0.7rem 1.4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid52 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    height: 2.5rem;
+    border-radius: 50rem;
+    padding: 0.1rem 1.5rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  .ButtonOnImageGrid53 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 0.1rem 1.5rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid54 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+
+    border-radius: 50rem;
+    padding: 0.7rem 1.4rem;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid55 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 0.7rem 1.4rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .ButtonOnImageGrid56 {
+    content: "";
+    background: white;
+    width: 11.5rem;
+    position: absolute;
+    top: 16rem;
+    left: 1.6rem;
+    text-align: center;
+    border-radius: 50rem;
+    padding: 0.7rem 1.4rem;
+
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+
+  .Five1 {
+    grid-area: Five1;
+  }
+  .Five2 {
+    grid-area: Five2;
+  }
+  .Five3 {
+    grid-area: Five3;
+  }
+  .Five4 {
+    grid-area: Five4;
+  }
+  .Five5 {
+    grid-area: Five5;
+  }
+  .Five6 {
+    grid-area: Five6;
+  }
+
+  /************
+  *************
+  *SCROLL BAR*
+  ***/
+
+  /* .ForGrid2 ::-webkit-scrollbar {
+      width: 20px;
+    }
+  
+    .ForGrid2::-webkit-scrollbar-thumb {
+      background: rgba(0, 0, 0, 0.25);
+      border-radius: 15px;
+    } */
+
+  /******** /* width */
+  .ForGrid5::-webkit-scrollbar {
+    height: 7px;
+  }
+
+  /* Track */
+  .ForGrid5::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  /* Handle */
+  .ForGrid5::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 50rem;
+    height: 4px;
+  }
+
+  /* Handle on hover */
+  .ForGrid5::-webkit-scrollbar-thumb:hover {
+    border: 8px solid black;
+  }
+}

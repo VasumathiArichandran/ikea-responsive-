@@ -1,0 +1,29 @@
+@media (min-width: 900px) {
+  .GridBox14 {
+    display: grid;
+    width: 100%;
+    margin: 0rem;
+    /* width: -webkit-fill-available; */
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.3rem;
+
+    grid-template-rows: 1fr;
+    grid-template-areas: "Fourteen1 Fourteen2";
+    margin-bottom: 4rem;
+  }
+  .Fourteen1 {
+    grid-area: Fourteen1;
+    font-size: 0.95rem;
+  }
+  .Fourteen2 a {
+    color: black;
+    font-weight: 600;
+
+    margin-right: 0.5rem;
+  }
+  .Fourteen2 {
+    grid-area: Fourteen2;
+    font-weight: 600;
+    margin-top: 4rem;
+  }
+}
